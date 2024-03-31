@@ -25,7 +25,7 @@ This project is a custom Linux shell created using Rust, featuring support for f
 - `-m <count>`: Limit the number of matched lines per file
 
 ### `echo` command
-- `content >> filename`: Append content to the specified file
+- `content >> filename`: Redirects content to the file specified
 
 ## Command syntax
 ### \`echo\`
