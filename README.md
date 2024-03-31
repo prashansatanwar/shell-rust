@@ -4,25 +4,25 @@ This project is a custom Linux shell created using Rust, featuring support for f
 
 ## Supported Commands:
 
-1. `echo`: Display input text.
-2. `pwd`: Print the current working directory.
-3. `ls`: List directory contents.
-4. `cat`: Display the contents of a file.
-5. `touch`: Create an empty file.
-6. `mkdir`: Create a new directory.
-7. `cd`: Change the current working directory.
-8. `grep`: Search for patterns in files.
-9.  `exit`: Exits the shell.
+1. `echo`: Display input text
+2. `pwd`: Print the current working directory
+3. `ls`: List directory contents
+4. `cat`: Display the contents of a file
+5. `touch`: Create an empty file
+6. `mkdir`: Create a new directory
+7. `cd`: Change the current working directory
+8. `grep`: Search for patterns in files
+9.  `exit`: Exits the shell
 
 ## Options implemented
 ### `ls` command
-- `-a`: Show hidden files and directories.
+- `-a`: Show hidden files and directories
 - `-r`: Reverse the order of listing
 - `-l`: Display detailed information in long format
 
 ### `grep` command
 - `-i`: Performs case-insensitive pattern matching
-- `-m <count>`: Limit the number of matched lines per file.
+- `-m <count>`: Limit the number of matched lines per file
 
 ### `echo` command
 - `content >> filename`: Append content to the specified file
@@ -48,9 +48,9 @@ This project is a custom Linux shell created using Rust, featuring support for f
     exit
 
 ## Future Enhancements
-- Support for piping 
+- Support for piping
 - Implementation of more advanced commands
   
 
 
-**Note:** _Currently the `grep` command only recognizes a search string._
+**Note:** _At the moment, the `grep` command only recognizes a search term._
